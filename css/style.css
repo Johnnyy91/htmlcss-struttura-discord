@@ -4,46 +4,110 @@
     padding: 0;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header{
+    background-color: black;
+}
+
 .flex{
     display: flex;
 }
 
-.column{
-    flex-direction: column;
-}
-
 .head1{
     background-color: aqua;
-    flex-basis: 100px;
 }
 
 .head2{
+    padding: 50px;
     background-color: lightblue;
-    flex-basis: 100px;
 }
 
+/*SECTION1*/
+
 .section1{
-    background-color: white;
-    flex-basis: 100px;
+    background-color: whitesmoke;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.IMG{
+    background-color: green;
+    width: 150px;
+}
+
+.TEXT{
+    background-color: red;
+    width: 150px;
+}
+
+/*SECTION2*/
 
 .section2{
     background-color: lightslategray;
-    flex-basis: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.IMG2{
+    background-color: green;
+    width: 150px;
+}
+
+.TEXT2{
+    background-color: red;
+    width: 150px;
+}
+
+/*SECTION3*/
 
 .section3{
     background-color: white;
-    flex-basis: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.IMG3{
+    background-color: green;
+    width: 150px;
+}
+
+.TEXT3{
+    background-color: red;
+    width: 150px;
+}
+
+/*SECTION4*/
 
 .section4{
     background-color: lightslategray;
-    flex-basis: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.IMG4{
+    background-color: green;
+    width: 150px;
+}
+
+.TEXT4{
+    background-color: red;
+    width: 150px;
+}
+
+/*FOOTER*/
 
 .foot{
     background-color: black;
-    flex-basis: 100px;
+    height: 100px;
 }
 
