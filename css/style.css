@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.head1{
+    background-color: aqua;
+    flex-basis: 100px;
+}
+
+.head2{
+    background-color: lightblue;
+    flex-basis: 100px;
+}
+
+.section1{
+    background-color: white;
+    flex-basis: 100px;
+}
+
+.section2{
+    background-color: lightslategray;
+    flex-basis: 100px;
+}
+
+.section3{
+    background-color: white;
+    flex-basis: 100px;
+}
+
+.section4{
+    background-color: lightslategray;
+    flex-basis: 100px;
+}
+
+.foot{
+    background-color: black;
+    flex-basis: 100px;
+}
+
