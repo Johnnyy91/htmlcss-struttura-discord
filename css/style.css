@@ -21,93 +21,62 @@ header{
 
 .head1{
     background-color: aqua;
+    justify-content: space-between;
 }
 
 .head2{
     padding: 50px;
     background-color: lightblue;
+    text-align: center;
 }
 
 /*SECTION1*/
 
-.section1{
+.section-nobg{
     background-color: whitesmoke;
     height: 100px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .IMG{
     background-color: green;
-    width: 150px;
+    width: 60%;
+    height: 100px;
 }
 
 .TEXT{
     background-color: red;
-    width: 150px;
+    width: 40%;
+    height: 100px;
 }
 
 /*SECTION2*/
 
-.section2{
+.section-bg{
     background-color: lightslategray;
     height: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.IMG2{
-    background-color: green;
-    width: 150px;
-}
-
-.TEXT2{
-    background-color: red;
-    width: 150px;
 }
 
 /*SECTION3*/
 
-.section3{
-    background-color: white;
+.section-nobg{
+    background-color: whitesmoke;
     height: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.IMG3{
-    background-color: green;
-    width: 150px;
-}
-
-.TEXT3{
-    background-color: red;
-    width: 150px;
 }
 
 /*SECTION4*/
 
-.section4{
+.section-bg{
     background-color: lightslategray;
     height: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.IMG4{
-    background-color: green;
-    width: 150px;
-}
-
-.TEXT4{
-    background-color: red;
-    width: 150px;
 }
 
 /*FOOTER*/
 
 .foot{
-    background-color: black;
+    background-color: blue;
     height: 100px;
 }
 
+.foot-top{
+    flex-direction: column;
+}
